@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
-  m_Name: Chess Demo with Conduit- WitConfiguration
+  m_Name: VoiceIa
   m_EditorClassIdentifier: 
   _clientAccessToken: A6MYLGUUMT7IZTCKUFD2ZTXK4VZM2IHV
   _appInfo:
@@ -174,7 +174,7 @@ MonoBehaviour:
       - formal
       - fast
       - projected
-  _configurationId: 4e21a24e472ab684e84db753427d5687
+  _configurationId: 3db58475-fee4-4c09-a118-2effdb0637d5
   timeoutMS: 10000
   endpointConfiguration:
     uriScheme: 
@@ -184,9 +184,10 @@ MonoBehaviour:
     speech: 
     message: 
     dictation: 
-  isDemoOnly: 1
+  isDemoOnly: 0
   useConduit: 1
-  _manifestLocalPath: ConduitManifest-63301a14-cdfe-465a-91c0-0d8db67feb7f.json
+  _manifestLocalPath: ConduitManifest-1b17891c-1569-4fb6-951a-2481ac14c919.json
   excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   relaxedResolution: 0

@@ -7,6 +7,7 @@ public class DetectBook : MonoBehaviour
     [SerializeField] private AudioSource solveSound;
     [SerializeField] private Animator doorAnim;
     [SerializeField] private Collider doorCollider;
+    [SerializeField] private GameObject pwCanvas;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("book"))
@@ -15,6 +16,7 @@ public class DetectBook : MonoBehaviour
             solveSound.Play();
             doorAnim.SetTrigger("open");
             doorCollider.enabled = false;
+            pwCanvas.SetActive(true);
         }
     }
 }
